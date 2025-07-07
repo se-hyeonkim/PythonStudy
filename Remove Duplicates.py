@@ -23,3 +23,19 @@ print(ex3)
 ex4=[]
 result=[i for i in x if not (i in ex4 or ex4.append(i))]
 print(result)
+
+
+'''set() 함수란?
+중복 제거: 리스트, 문자열, 튜플 등의 자료형에서 중복된 값을 제거하고 정렬되지 않은 집합을 만듭니다.
+
+원소는 변경 불가능한(immutable) 타입이어야 합니다 (ex: 숫자, 문자열, 튜플 등은 가능, 리스트는 안 됨)
+
+set()와 OrderedDict.fromkeys() 차이점
+
+list(set(x))         
+# 출력: ['banana', 'apple', 'kiwi'] (순서 보장 X)
+list(OrderedDict.fromkeys(x))
+# 출력: ['banana', 'apple', 'kiwi'] (처음 등장 순서 그대로)
+'''
+
+
