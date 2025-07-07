@@ -16,3 +16,7 @@ total2=sum(d.values())
 print(total2) 
 
 print(sum([d[items] for items in d]))
+
+
+'''d[items]
+반복된 키를 이용해서 해당 값(value)을 가져옴.'''
